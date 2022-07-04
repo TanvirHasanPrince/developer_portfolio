@@ -1,82 +1,95 @@
-
-
-body{
- font-family: 'Poppins', sans-serif;
- margin:0;
-
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
-h1{
- font-size: 50px;
- font-weight: 600;
+h1 {
+  font-size: 50px;
+  font-weight: 600;
 }
 
-span{
- color: orange;
+span {
+  color: orange;
 }
 
-
-.Hire-me{
- padding: 10px 10px;
- background-color: yellow;
-
+.Hire-me {
+  padding: 10px 10px;
+  background-color: yellow;
 }
 
 .flexible-container {
- display: flex;
- margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 100px;
 }
 
-
-.half-width{
- width: 50%;
- padding-left: 5%;
-} 
-
-.half-width img{
- width: 100%;
+.half-width {
+  width: 50%;
+  padding-left: 5%;
 }
 
-a{
- text-decoration: none;
- background-image: linear-gradient(orange, tomato);
- padding:15px 40px;
- border-radius: 5px;
- font-weight: 700;
- 
+.half-width img {
+  width: 100%;
 }
 
-.half-width p{
- margin-bottom: 25px;
+a {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-weight: 700;
 }
 
-.top-banner{
- background-image: url(./images/top-banner.png);
- background-repeat: no-repeat;
+.half-width p {
+  margin-bottom: 25px;
 }
 
-.dream-big{
- background-image: url(./images/dream-bg.png);
- background-repeat: no-repeat;
+.top-banner {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
 }
 
-.experience{
- text-align: center;
+.dream-big {
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
 }
 
+.experience {
+  text-align: center;
+}
 
-.full-stack-developer{
- background-color: #ffffff;
- border-left: 5px solid blue;
- padding-bottom: 100px;
+.full-stack-developer {
+
+
+
+  
+   border-left: 5px solid tomato;
+  padding-bottom: 100px;
   box-shadow: 20px 20px 30px #888888;
-
+  margin-left: -25px;
 }
 
-.Baby-developer{
+.Baby-developer {
   background-color: #ffffff;
- border-left: 5px solid red;
- padding-bottom: 100px;
+   border-left: 5px solid blue;
+  padding-bottom: 100px;
   box-shadow: 10px 10px 20px #888888;
+}
+.exerience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px grey;
+  
+}
 
+footer{
+  text-align: center;
 }
